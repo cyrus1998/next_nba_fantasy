@@ -1,0 +1,53 @@
+{
+  "name": "nba_fantasy_next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"node server.js\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@headlessui/tailwindcss": "^0.2.0",
+    "@heroicons/react": "^1.0.6",
+    "@nextui-org/react": "^1.0.0-beta.13",
+    "@remixicon/react": "^4.1.1",
+    "@tremor/react": "^3.13.4",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "autoprefixer": "10.4.14",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.7",
+    "mongoose": "^7.3.1",
+    "next": "13.4.7",
+    "next-auth": "^4.22.1",
+    "next-connect": "^1.0.0",
+    "next-themes": "^0.2.1",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.3",
+    "swr": "^2.2.2",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.1.6",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/bcrypt": "^5.0.0",
+    "@types/next": "^9.0.0",
+    "@types/node": "^20.10.6",
+    "@types/socket.io": "^3.0.2",
+    "@types/validator": "^13.7.17",
+    "concurrently": "^8.2.2"
+  }
+}
